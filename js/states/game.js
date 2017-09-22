@@ -10,7 +10,6 @@ fight.prototype = {
    init: function(config) {
       var self = this;
       console.log("Running the game...");
-      console.log(self.config);
 
       self.READY = false;
    },
@@ -32,11 +31,17 @@ fight.prototype = {
       self.action_btn = self.game.input.keyboard.addKey(Phaser.Keyboard.Z);
       self.cancel_btn = self.game.input.keyboard.addKey(Phaser.Keyboard.X);
 
+
       //mute_btn.onUp.add(muteGame, self)
       //self.pause_btn.onDown.add(self.pauseGame, self);
 
       //Ingame Text
-      var style_white = {font: '20px 8bitoperator', fill:'#ffffff'};
+      self.style_white = {font: '18px 8bitoperator', fill:'#ffffff'};
+
+      //self.teststring = self.game.add.text(400, 400, 'Je teste une string.', self.style_white)
+
+
+      //self.teststring.targetstring = "Je teste une string."
 
       /*
       self.game.add.sprite(20, 29, 'powerups', 12);
@@ -66,9 +71,18 @@ fight.prototype = {
       self.music.play();
 
       //Create all sounds
-      //self.pickup_sd = self.game.add.audio('pickup');
+      self.text_sd = self.game.add.audio('text');
       //self.pickup_sd.volume = 0.5;
       //self.game.saveCpu.renderOnFPS = 60;
+
+      var graphics = game.add.graphics(0,0)
+      graphics.lineStyle(4, 0xFFFFFF, 1);
+      graphics.drawRect(100, 350, 600, 125);
+
+
+      self.teststring = new MyText(self.game, 116, 358, "* Bouli, the Hatted Discoball, rolls in !", self.style_white, 60, self.text_sd)
+      //self.action_btn.onDown.add(function() {self.scrollText(self.teststring, 60, self.text_sd)}, self)
+
       self.READY = true;
    },
 
@@ -108,6 +122,10 @@ fight.prototype = {
                self.player.body.velocity.x = PLAYER_SPEED;
                //player.body.velocity.y = 0; 
             } 
+
+            if(self.action_btn.isDown) {
+               //self.scrollText(self.teststring, 60, self.text_sd)
+            }
 
          /*//Move the enemies
          self.enemies.forEachAlive(function(enemy){
@@ -162,10 +180,6 @@ fight.prototype = {
       var self = this;
       var amount = shot.power;
 
-      if (shot.key != 'explosion')  {
-         shot.kill();
-      }
-
       enemy.damage(amount);
 
       if (enemy.alive && !self.mute) {
@@ -188,6 +202,23 @@ fight.prototype = {
       var self = this;
 
       //this.game.state.start("GameOver");
+   },
+
+   scrollText: function(text, delay, sound) {
+      console.log(text)
+      console.log(text.text)
+      text.targetstring = text.text;
+      console.log(text.targetstring)
+      text.text = "";
+      var stringindex = 0;
+      self.game.time.events.repeat(delay, text.targetstring.length, function() {
+         text.text = text.text.concat(text.targetstring[stringindex]);
+         sound.play()
+         stringindex++;
+      }, self);
+
+
    }
 
 }
+

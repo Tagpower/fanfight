@@ -53,10 +53,10 @@ preload.prototype = {
       this.game.load.spritesheet('boulihard', 'assets/bouli2.png', 96, 100);
 
       //Music
-      this.game.load.audio('ambient', ['assets/audio/friends.mp3']);
+      this.game.load.audio('ambient', 'assets/audio/friends.mp3');
 
       //Sounds
-      //this.game.load.audio('pickup', ['assets/audio/pickup.wav']);
+      this.game.load.audio('text', 'assets/audio/voice_text.wav');
 
    },
    create: function() {
