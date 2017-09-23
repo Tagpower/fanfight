@@ -52,6 +52,8 @@ preload.prototype = {
       this.game.load.spritesheet('bouli', 'assets/bouli.png', 96, 100);
       this.game.load.spritesheet('boulihard', 'assets/bouli2.png', 96, 100);
 
+      this.game.load.bitmapFont('font', 'assets/font.png', 'assets/font.fnt');
+
       //Music
       this.game.load.audio('ambient', 'assets/audio/friends.mp3');
 

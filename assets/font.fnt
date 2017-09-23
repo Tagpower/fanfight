@@ -1,0 +1,90 @@
+<font>
+  <info face="font" size="32" bold="0" italic="0" charset="" unicode="" stretchH="100" smooth="1" aa="1" padding="2,2,2,2" spacing="0,0" outline="0"/>
+  <common lineHeight="48" base="33" scaleW="153" scaleH="488" pages="1" packed="0"/>
+  <pages>
+    <page id="0" file="font.png"/>
+  </pages>
+  <chars count="80">
+    <char id="97" x="2" y="2" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="98" x="2" y="25" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="99" x="2" y="54" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="100" x="2" y="77" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="101" x="2" y="106" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="102" x="2" y="129" width="15" height="27" xoffset="3" yoffset="6" xadvance="21" page="0" chnl="15"/>
+    <char id="103" x="2" y="158" width="21" height="27" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="104" x="19" y="129" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="105" x="22" y="2" width="12" height="30" xoffset="3" yoffset="3" xadvance="18" page="0" chnl="15"/>
+    <char id="106" x="22" y="34" width="18" height="36" xoffset="3" yoffset="3" xadvance="24" page="0" chnl="15"/>
+    <char id="107" x="36" y="2" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="108" x="22" y="72" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="109" x="22" y="101" width="24" height="21" xoffset="3" yoffset="12" xadvance="30" page="0" chnl="15"/>
+    <char id="110" x="36" y="72" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="111" x="42" y="31" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="112" x="56" y="2" width="18" height="27" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="113" x="2" y="187" width="18" height="27" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="114" x="2" y="216" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="115" x="2" y="239" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="116" x="2" y="262" width="15" height="27" xoffset="3" yoffset="6" xadvance="21" page="0" chnl="15"/>
+    <char id="117" x="2" y="291" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="118" x="19" y="262" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="119" x="22" y="187" width="21" height="21" xoffset="3" yoffset="12" xadvance="27" page="0" chnl="15"/>
+    <char id="120" x="25" y="158" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="121" x="39" y="124" width="18" height="27" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="122" x="48" y="95" width="18" height="21" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="65" x="56" y="54" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="66" x="22" y="210" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="67" x="2" y="314" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="68" x="2" y="343" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="69" x="2" y="372" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="70" x="2" y="401" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="71" x="2" y="430" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="72" x="2" y="459" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="73" x="22" y="285" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="74" x="22" y="314" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="75" x="36" y="285" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="76" x="39" y="239" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="77" x="42" y="210" width="21" height="27" xoffset="3" yoffset="6" xadvance="27" page="0" chnl="15"/>
+    <char id="78" x="45" y="153" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="79" x="59" y="118" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="80" x="68" y="83" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="81" x="76" y="2" width="18" height="33" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="82" x="76" y="37" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="83" x="22" y="343" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="84" x="22" y="372" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="85" x="22" y="401" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="86" x="22" y="430" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="87" x="22" y="459" width="21" height="27" xoffset="3" yoffset="6" xadvance="27" page="0" chnl="15"/>
+    <char id="88" x="42" y="314" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="89" x="56" y="268" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="90" x="59" y="239" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="33" x="65" y="147" width="6" height="27" xoffset="3" yoffset="6" xadvance="12" page="0" chnl="15"/>
+    <char id="8470" x="65" y="176" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="59" x="73" y="147" width="6" height="27" xoffset="3" yoffset="12" xadvance="12" page="0" chnl="15"/>
+    <char id="37" x="65" y="205" width="21" height="24" xoffset="3" yoffset="9" xadvance="27" page="0" chnl="15"/>
+    <char id="58" x="62" y="31" width="6" height="21" xoffset="3" yoffset="12" xadvance="12" page="0" chnl="15"/>
+    <char id="63" x="79" y="112" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="42" x="76" y="66" width="21" height="15" xoffset="3" yoffset="12" xadvance="27" page="0" chnl="15"/>
+    <char id="40" x="88" y="83" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="41" x="81" y="141" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="95" x="22" y="124" width="15" height="3" xoffset="0" yoffset="36" xadvance="15" page="0" chnl="15"/>
+    <char id="43" x="45" y="182" width="18" height="15" xoffset="3" yoffset="12" xadvance="24" page="0" chnl="15"/>
+    <char id="45" x="39" y="268" width="15" height="3" xoffset="3" yoffset="18" xadvance="21" page="0" chnl="15"/>
+    <char id="61" x="39" y="273" width="15" height="9" xoffset="3" yoffset="15" xadvance="21" page="0" chnl="15"/>
+    <char id="46" x="65" y="231" width="6" height="6" xoffset="3" yoffset="27" xadvance="12" page="0" chnl="15"/>
+    <char id="44" x="56" y="297" width="6" height="12" xoffset="3" yoffset="27" xadvance="12" page="0" chnl="15"/>
+    <char id="47" x="85" y="170" width="18" height="30" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="124" x="95" y="141" width="6" height="27" xoffset="3" yoffset="6" xadvance="12" page="0" chnl="15"/>
+    <char id="34" x="22" y="239" width="15" height="12" xoffset="3" yoffset="6" xadvance="21" page="0" chnl="15"/>
+    <char id="39" x="42" y="54" width="6" height="12" xoffset="3" yoffset="6" xadvance="12" page="0" chnl="15"/>
+    <char id="64" x="99" y="112" width="24" height="27" xoffset="3" yoffset="6" xadvance="30" page="0" chnl="15"/>
+    <char id="35" x="103" y="141" width="24" height="27" xoffset="3" yoffset="6" xadvance="30" page="0" chnl="15"/>
+    <char id="36" x="96" y="2" width="18" height="39" xoffset="3" yoffset="0" xadvance="24" page="0" chnl="15"/>
+    <char id="94" x="96" y="43" width="21" height="12" xoffset="3" yoffset="3" xadvance="27" page="0" chnl="15"/>
+    <char id="38" x="116" y="2" width="21" height="27" xoffset="3" yoffset="6" xadvance="27" page="0" chnl="15"/>
+    <char id="123" x="102" y="57" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="125" x="122" y="31" width="18" height="27" xoffset="3" yoffset="6" xadvance="24" page="0" chnl="15"/>
+    <char id="91" x="139" y="2" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="93" x="122" y="60" width="12" height="27" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+    <char id="32" x="0" y="0" width="0" height="0" xoffset="3" yoffset="6" xadvance="18" page="0" chnl="15"/>
+  </chars>
+</font>

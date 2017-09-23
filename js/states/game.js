@@ -82,7 +82,7 @@ fight.prototype = {
 
       self.teststring = new MyText(self.game, 116, 358, "* Bouli, the Hatted Discoball, rolls in !", self.style_white, 60, self.text_sd)
       //self.action_btn.onDown.add(function() {self.scrollText(self.teststring, 60, self.text_sd)}, self)
-
+      //text = self.game.add.bitmapText(116, 400, 'font','Bitmap Fonts!',64);
       self.READY = true;
    },
 
